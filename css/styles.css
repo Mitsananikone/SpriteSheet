@@ -1,18 +1,15 @@
-
-
-
-
-
-.room {
-  width: 1280;
-  height: 800;
-  background-color: red;
+* {
+  padding: 0;
+  border: 0;
 }
 
-.center {
-  border: 5px solid #ffff00;
-  display: flex;
-  justify-content: center;
-  height: auto;
-}
 
+canvas {
+  position: absolute; 
+  margin-top: 15vw;
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(67, 245, 227);
+  border: 1px solid black;
+}
